@@ -1,6 +1,10 @@
 # ActivityTransitionAnimation
 Android animation with Views simply native code
 
+![Alt Text](https://media.giphy.com/media/Jog72mqNMZjHesbJVE/giphy.gif)
+
+
+
 ### Add style for activate window content transition(inside your AppTheme)
            <item name="android:windowActivityTransitions">true</item>
            
