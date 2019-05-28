@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/ivUser"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/ic_user"
+            android:transitionName="transImage"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_below="@+id/ivUser"
+            android:textSize="18dp"
+            android:text="Muthu here"
+            android:transitionName="transName"
+            android:fontFamily="@font/nunito_semibold"
+            android:textColor="#000000"/>
+
+    <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitle"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:transitionName="transDesc"
+            android:textStyle="normal"
+            android:text="Muthu here is looking somthing new to deserve the animation to clear all data in single view "
+            android:fontFamily="@font/nunito_extralight"/>
+
+
+</RelativeLayout>
